@@ -95,7 +95,8 @@
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginRight="20dp">
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/ragAvata">
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -174,5 +175,6 @@
         android:text="SIGN UP"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:clickable="false" />
+        android:clickable="false"
+        android:onClick="clickSignUpSign" />
 </RelativeLayout>
