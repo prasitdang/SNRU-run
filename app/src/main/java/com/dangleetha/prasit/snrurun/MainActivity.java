@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }//Main Method
     public void clickSignUpMain(View view) {
-       startActivity(new Intent(MainActivity.this,this, SignUp.class));
+       startActivity(new Intent(MainActivity.this,SignUp.class));
     }
 } // Main Class นี่คือ คลาสหหลัก
